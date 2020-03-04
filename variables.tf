@@ -17,3 +17,7 @@ variable "images" {
     "eu-north-1" = "ami-9f35bde1"
   }
 }
+
+variable "private_key" {
+  type = string
+}
